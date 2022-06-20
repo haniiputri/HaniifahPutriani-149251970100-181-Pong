@@ -7,12 +7,12 @@ public class MainMenuControl: MonoBehaviour
 {
     public void PlayGame()
     {
-        Debug.Log("Created by Haniifah Putriani - 149251970100-181");
         SceneManager.LoadScene("GameScene");
     }
 
     public void OpenAuthor()
     {
-        Debug.Log("Created By Saya");
+        Debug.Log("Created by Haniifah Putriani - 149251970100-181");
+        SceneManager.LoadScene("CreditScene");
     }
 }
